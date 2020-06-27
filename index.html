@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>CALCULATOR</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="cal" id="hide">
+<form name="cal" >
+<input type="text" value="" class="tb1" name="display">
+<input type="button" value="MC" class="b1" onclick="cal.display.value+=">
+<input type="button" value="MR" class="b1" onclick="cal.display.value+=">
+<input type="button" value="MS" class="b1" onclick="cal.display.value+=">
+<input type="button" value="ABOUT" class="b2" onclick="myintro()">
+
+<input type="button" value="7" class="b1" onclick="cal.display.value+=7">
+<input type="button" value="8" class="b1" onclick="cal.display.value+=8">
+<input type="button" value="9" class="b1" onclick="cal.display.value+=9">
+<input type="button" value="C" class="b1" onclick="runBack()">
+<input type="button" value="/" class="b1 yellow" onclick="cal.display.value+='/'">
+
+<input type="button" value="4" class="b1" onclick="cal.display.value+=4">
+<input type="button" value="5" class="b1" onclick="cal.display.value+=5">
+<input type="button" value="6" class="b1" onclick="cal.display.value+=6">
+<input type="button" value="CE" class="b1" onclick="cal.display.value=''">
+<input type="button" value="*" class="b1 yellow" onclick="cal.display.value+='*'">
+
+<input type="button" value="1" class="b1" onclick="cal.display.value+=1">
+<input type="button" value="2" class="b1" onclick="cal.display.value+=2">
+<input type="button" value="3" class="b1" onclick="cal.display.value+=3">
+<input type="button" value="%" class="b1" onclick="cal.display.value+='%'">
+<input type="button" value="-" class="b1 yellow" onclick="cal.display.value+='-'">
+
+<input type="button" value="0" class="b1" onclick="cal.display.value+=0">
+<input type="button" value="." class="b1" onclick="cal.display.value+='.'">
+<input type="button" value="1/x" class="b1" onclick="inverse()">
+<input type="button" value="x/2" class="b1" onclick="half()" >
+<input type="button" value="+" class="b1  yellow" onclick="cal.display.value+='+'">
+
+
+<input type="button" value="&#8730" class="b1" onclick="calcsqrt()">
+<input type="button" value="&#8731" class="b1" onclick="calcuberoot()">
+<input type="button" value="x&#178" class="b1" onclick="square()">
+<input type="button" value="x&#179" class="b1" onclick="cube()">
+<input type="button" value="=" class="b1  yellow" onclick="cal.display.value=eval(cal.display.value)">
+
+<input type="button" value="&#123" class="b1" onclick="cal.display.value+='&#123'">
+<input type="button" value="&#125" class="b1" onclick="cal.display.value+='&#125'">
+<input type="button" value="&#40" class="b1" onclick="cal.display.value+='&#40'">
+<input type="button" value="&#41" class="b1" onclick="cal.display.value+='&#41'">
+<input type="button" value="&#177" class="b1  yellow" onclick="cal.display.value+=">
+</form>
+    </div>
+    <div class="myintro" id="myintro">
+<img src="image/fahad.jpg" alt="" srcset="">
+<H1> FAHAD KAMRAN </H1>
+<h2>03462809691</h2>
+<h2>fahadcs512@gmail.com</h2>
+<P>Front-end web developers are responsible for how a website looks. They create the site's layout and integrate graphics, applications (such as a retail checkout tool), and other content. They also write webdesign programs in a variety of computer languages, such as HTML or JavaScript.</P>   
+</div>
+</body>
+</html>
